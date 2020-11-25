@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+h1{
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.container{
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    font-size: 100px;
+    text-align: center;
+    border: 1px dashed black;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    height: 150px;
+}
+
+.box, .box input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border: 1px dashed black;
+}
+
+.button{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    width: 160px;
+    font-size: x-large;
+}
+
+#ocult{
+    text-align: center;
+    font-size: xx-large;
+
+}
+
